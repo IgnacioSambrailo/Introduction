@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+body::before {
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.493),
+        rgba(0, 0, 0, 0.589)
+      ),
+      url("https://lh3.googleusercontent.com/AE52YWz3qkt3YBbSN2f7AX383pqURZqi0ATXZJ2YkJ8Q7C8l2KtLM87NZ2jE3zUA5Dp4lNoppFBipThxeQvKmyHk-hMXfdq2HJVCJ9t_x-xQQ0DFpuWDomvPm5xon8_gBEVIjfNnGMkUXFoC6nBynL-HZLZYBWHG0Rztpm9EMrCm-oW-Xu0oXEGl8ZcNRL03-meapKnquSyzzpdLRK4AQJT5jaCtkeLGSUSA8ld86-5bj2-_StdbAonN5ZGpnCS6HBnFbzngSjAq2tC49Lam0vFt-SFszpaDquUb-xRa9Hn51EcnILu5EOtGv8m__oion755O262ylcYCi6fencq2BG-KPS4ubABDVzWkBQNkuf4fwQWrRX239EQwDNgW6-9uFyKJN5DvUb2l9Rqi4vvE17ucGowQFOGsa902HeZ3u3fwaYErFYEK9FfAtI5qDHCiKjSljxmzDxESaTlBwvxEaHVb0sXqH6WqzuSn_1fXdS8b7z790AkvD9VUE4wZIXRHqrEEkqupbH0yOeWffKozP3TkaG-f2ojl3R6UlzuA8NOtKEzcTv2i6xqJf2WoU22JAMRvq1uIliX5jP9a8hD1e3GnkO3ZvJpnhL3H9NuWfg1zw0BfQkwxoG8W8jO9z7-sSsIWSbzWKfXMEVSPsZ0II2983yx8LgPwv5kc1_3JB9SwZJFBioSyPwXQEHc_ojbKc_EVslO8tNlEbx_RgXUH1-16MnwbbiEeFPuaXRysw25OcfkFNLgceEaPVi_uJgpVX1MGYT86FXugiPZhUdxCI3mAhj-7v9B9EllDYkinaY10gh3SGaXdz9RNHgWBD_vgnblPYFuLmCOLPlbSGfFhiO-gkXycU6bzCBCXg=w1080-h810-no?authuser=0");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: ;
+  }
+
+  body{
+      animation-duration: 10s;
+  }
+
+
+
+#nav-bar{
+    position:absolute;
+    width: 100%;
+}
+
+#nav-bar ul{
+    list-style: none;
+ 
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+}
+
+#nav-bar li{
+    display: inline-block;
+    margin: auto 40px auto 40px ;
+}
+
+#nav-bar a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    width: 130px;
+    display: block;
+    margin: 20px 30px ;
+    padding: 15px 5px;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    text-transform: uppercase;
+    transition: all 0.3s ease;  
+   
+    
+}
+
+#nav-bar a:hover{
+    color: #000768d2;
+    border-radius: 10px;
+    padding: 0px;
+    text-align: center;
+    letter-spacing: 0.06rem;
+    
+}
+
+.presentacion{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    width: 100%;
+    height: 100vh;
+    
+   
+ 
+}
+
+.presentacion p{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 1000;
+    background-color: aliceblue;
+    padding: 0px 7px;
+    text-align: center;
+    animation-duration: 3.5s; /* don't forget to set a duration! */
+}
+
+.presentacion h1{
+    
+    background-color: rgb(240, 248, 255);
+    font-size: 70px;
+    margin:10px;
+    animation-duration: 1.5s; /* don't forget to set a duration! */
+        
+
+}
+
+#Proyectos{
+    margin: 1em 1em 0em 1em;
+    height: auto;
+}
+
+.seccion-proyectos{
+    padding: 40px 40px;
+   background-image: linear-gradient(180deg,rgb(128, 115, 115),rgb(124, 164, 197));
+    padding: 40px auto ;
+    text-align: center;
+    margin: auto;
+
+    
+    
+}
+h2{
+    color: ;
+    font-size: 3em;
+    font-family: 'Questrial', sans-serif;
+}
+
+
+
+.grilla-proyectos{
+    
+    
+    display: grid;
+    grid-template-columns: repeat(2, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 40px auto; 
+
+
+
+    
+  
+ 
+}
+
+.titulo-proyecto{
+ 
+    text-decoration: none;
+    color: black;
+
+}
+
+.imagen-proyecto{
+ width: 100%;
+ max-height: auto;
+ width: 35em;
+ 
+    
+}
+
+.pie-paginas {
+    display: block;
+    width: auto;
+    font-size: 18px;
+    padding: 0.5rem 0.5rem;
+    font-family: 'Questrial', sans-serif;
+    
+    
+}
+
+.titulo-proyecto:hover{
+    color: blanchedalmond;
+}
+
+.proyecto{
+    background: grey;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    
+}
+
+.proyecto:hover{
+    border: 1px solid blanchedalmond;
+
+}
+
+
+.section>h2:hover{
+    animation: animate__fadeOutLeftBig;
+    animation-duration: 2s;
+}
+
+
+.icon{
+    max-height: 100%;
+    width: auto;
+
+    width:40px;
+}
+
+.redes li{
+    display:inline-block;
+    margin: auto 20px auto;
+}
+
+.sobre-mi{
+    margin: 0.5em 1em 0em 1em;
+    text-align: center;
+    padding: 40px 40px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+      
+    
+    
+}
+
+.foto-ignacio{
+    padding-top: 20px;
+   width: 300px;
+   height:300px;
+   object-fit: cover;
+   display: block;
+   margin: auto auto;
+   
+}
+
+.texto-centro{
+    text-align: left;
+    
+    margin: 0px 0px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 14px;
+}
+
+.sobre-mi{
+    
+    top: 0;
+    left: 0;
+    height: 100%;
+
+    
+    background-image: linear-gradient(
+        to bottom,
+        rgb(124, 164, 197),
+        rgb(255, 255, 255)
+      );
+
+
+ 
+    
+
+}
+
+.sobre-mi-titulo{
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+  
+}
+
+.sobre-mi ul{
+    padding-top: 10px;  
+    list-style: none;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+
+
+.sobre-mi p{
+    padding: 30px 30px;
+    font-size: 1.2em;
+}
+
+
+.contacto{
+    
+    text-align: center;
+    padding: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    height: auto;
+}
+
+.contacto ul{
+    list-style: none;
+}
+
+.contacto h2{
+    font-size: 2em;
+}
+
+.contacto p{
+    font-size: 1em;
+}
+
+.redes{
+    padding-top: 30px;  
+}
+
+.redes li{
+    margin: 10px 40px;
+}
+
+hr{
+    margin:1em;
+}
+
